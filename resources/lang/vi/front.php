@@ -53,7 +53,7 @@ return [
     'view_more'          => 'Xem đầy đủ',
     'view_product'       => 'Xem sản phẩm',
     'join_new_letter'    => 'Đăng ký',
-    'products_hot'       => 'Sản phẩm HOT',
+    'products_hot'       => 'Sản phẩm được ưa chuộng nhất',
     'products_special'   => 'Sản phẩm giảm giá',
     'products_last_view' => 'Xem gần đây',
     'products_build'     => 'Sản phẩm bộ',

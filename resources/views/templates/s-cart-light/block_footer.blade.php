@@ -81,12 +81,12 @@
           <div class="container">
             <div class="row row-10 align-items-center justify-content-sm-between">
               <div class="col-md-auto">
-                <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>{{ sc_store('title') }}</span><span>.&nbsp; All rights reserved</span></p>
+                <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>{{ sc_store('title') }}</span><span>.&nbsp; Tất cả các quyền được bảo hộ</span></p>
               </div>
-              <div class="col-md-auto order-md-1">Hosted by <a target="_blank"
-                href="https://giaiphap247.com">GiaiPhap247.com</a></div>
+              <div class="col-md-auto order-md-1">Triển khai bởi <a target="_blank"
+                href="https://tungong.tech">TuNgong.Tech</a></div>
               <div class="col-md-auto">
-                    Power by <a href="{{ config('s-cart.homepage') }}">{{ config('s-cart.name') }} {{ config('s-cart.sub-version') }}</a>
+                    Sử dụng mã nguồn <a href="{{ config('s-cart.homepage') }}">{{ config('s-cart.name') }} {{ config('s-cart.sub-version') }}</a>
               </div>
             </div>
           </div>

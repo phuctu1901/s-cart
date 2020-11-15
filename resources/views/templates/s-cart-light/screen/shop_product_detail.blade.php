@@ -297,9 +297,9 @@ $bannerBreadcrumb = $modelBanner->start()->getBreadcrumb()->getData()->first();
     <div class="material-parallax parallax">
       <img src="{{ asset($bannerBreadcrumb['image'] ?? '') }}" alt="" style="display: block; transform: translate3d(-50%, 83px, 0px);">
     </div>
-    <div class="breadcrumbs-custom-body parallax-content context-dark">
+    <div class="breadcrumbs-custom-body parallax-content context-dark" style="background: rgba(0, 0, 0, 0.6);">
       <div class="container">
-        <h2 class="breadcrumbs-custom-title">{{ trans('front.product_detail') }}</h2>
+        <h2 class="breadcrumbs-custom-title" style="font-weight: bold;">{{ trans('front.product_detail') }}</h2>
       </div>
     </div>
   </div>

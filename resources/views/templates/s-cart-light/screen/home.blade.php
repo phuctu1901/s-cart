@@ -20,7 +20,7 @@ $categoryHot = $modelCategory->start()->getCategoryTop()->setlimit(6)->getData()
 
             <div class="row row-30 row-lg-50">
                 @foreach ($productsNew as $key => $productNew)
-                    <div class="col-sm-6 col-md-4 col-lg-3">
+                    <div class="col-sm-6 col-md-4 col-lg-4">
                         <!-- Product-->
                         <article class="product wow fadeInRight">
                             <div class="product-body">

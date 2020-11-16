@@ -13,7 +13,7 @@
     <meta name="keyword" content="{{ $keyword??sc_store('keyword') }}">
     <title>{{$title??sc_store('title')}}</title>
     <link rel="icon" href="{{ asset('images/icon.png') }}" type="image/png" sizes="16x16">
-    <meta property="og:image" content="{{ !empty(sc_store('thumb'))?asset(sc_store('thumb')):asset('images/org.jpg') }}" />
+    <meta property="og:image" content="{{ !empty($thumb)?asset($thumb):asset(sc_store('thumb')) }}" />
     <meta property="og:url" content="{{ \Request::fullUrl() }}" />
     <meta property="og:type" content="Website" />
     <meta property="og:title" content="{{ $title??sc_store('title') }}" />
@@ -51,11 +51,6 @@
     @stack('styles')
   </head>
 <body>
-    <div class="ie-panel">
-        <a href="http://windows.microsoft.com/en-US/internet-explorer/">
-            <img src="{{ asset($sc_templateFile.'/images/ie8-panel/warning_bar_0000_us.jpg')}}" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.">
-        </a>
-    </div>
 
     <div class="page">
         {{-- Block header --}}

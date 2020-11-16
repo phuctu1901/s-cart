@@ -22,6 +22,9 @@
       <nav class="mt-2">
         <ul class="nav nav-pills nav-sidebar flex-column nav-legacy" data-widget="treeview" role="menu" >
 
+        @if (\Admin::user()->checkUrlAllowAccess(route('admin_order.index')))
+            @include($templatePathAdmin.'component.sidebar_bottom')
+        @endif
           @if (\Admin::user()->checkUrlAllowAccess(route('admin_order.index')))
           <!-- SEARCH FORM -->
           <form action="{{ sc_route('admin_order.index') }}" method="get" class="form-inline m-1 d-block d-sm-none" >
@@ -137,10 +140,7 @@
       @endif
 
 
-      
-      @if (\Admin::user()->checkUrlAllowAccess(route('admin_order.index')))
-        @include($templatePathAdmin.'component.sidebar_bottom')
-      @endif
+
 
 
       </ul>

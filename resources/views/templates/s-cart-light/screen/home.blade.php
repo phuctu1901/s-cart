@@ -88,7 +88,7 @@ $layout_page = home
                         <div class="row">
                             <div class="col text-center">
                                 <div class="button-wrap fadeInUp animated text-center" data-caption-animate="fadeInUp" data-caption-delay="300">
-                                    <a class="button button-zachem-tak-delat button-white button-zakaria" href="http://127.0.0.1:8000/banner/1" target="_self">
+                                    <a class="button button-zachem-tak-delat button-white button-zakaria" href="{{ sc_route('shop') }}" target="_self">
                                         Tất cả sản phẩm
                                     </a>
                                 </div>
@@ -208,7 +208,7 @@ $layout_page = home
                           <div class="row">
                               <div class="col text-center">
                                   <div class="button-wrap fadeInUp animated text-center" data-caption-animate="fadeInUp" data-caption-delay="300">
-                                      <a class="button button-zachem-tak-delat button-white button-zakaria" href="http://127.0.0.1:8000/banner/1" target="_self">
+                                      <a class="button button-zachem-tak-delat button-white button-zakaria" href="{{ sc_route('shop') }}" target="_self">
                                           Tất cả sản phẩm
                                       </a>
                                   </div>

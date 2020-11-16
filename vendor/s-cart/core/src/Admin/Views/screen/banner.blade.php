@@ -63,6 +63,7 @@
                                         @endif
                                 </div>
                             </div>
+                            @if(isset($banner['type']))
                             @if($banner['type']=='banner')
                             <div class="form-group  row {{ $errors->has('title') ? ' text-red' : '' }}">
                                 <label for="url" class="col-sm-2 col-form-label">Tiêu đề</label>
@@ -102,7 +103,7 @@
                                 </div>
                             </div>
                             @endif
-
+                            @endif
 
                             <div class="form-group row {{ $errors->has('target') ? ' text-red' : '' }}">
                                     <label for="target" class="col-sm-2 col-form-label">{{ trans('banner.admin.select_target') }}</label>

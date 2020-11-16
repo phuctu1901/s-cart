@@ -236,7 +236,7 @@ $layout_page = product_detail
       <!-- Related Products-->
       <section class="section section-sm section-last bg-default">
         <div class="container">
-          <h4 class="font-weight-sbold">Featured Products</h4>
+          <h4 class="font-weight-sbold">Các sản phẩm liên quan</h4>
           <div class="row row-lg row-30 row-lg-50 justify-content-center">
             @foreach ($productRelation as $key => $product_rel)
             <div class="col-sm-6 col-md-5 col-lg-3">

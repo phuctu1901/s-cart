@@ -54,7 +54,7 @@ Use paginate: $products->appends(request()->except(['page','_token']))->links()
           <div class="product-body">
             <div class="product-figure">
                 <a href="{{ $product->getUrl() }}">
-                <img src="{{ asset($product->getThumb()) }}" alt="{{ $product->name }}"/>
+                <img src="{{ asset($product->getThumb()) }}" alt="{{ $product->name }}" style="height: 200px; object-fit: cover;"/>
                 </a>
             </div>
             <h5 class="product-title"><a href="{{ $product->getUrl() }}">{{ $product->name }}</a></h5>

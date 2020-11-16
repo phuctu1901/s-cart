@@ -81,7 +81,7 @@
           <div class="container">
             <div class="row row-10 align-items-center justify-content-sm-between">
               <div class="col-md-auto">
-                <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span>{{ sc_store('title') }}</span><span>.&nbsp; Tất cả các quyền được bảo hộ</span></p>
+                <p class="rights"><span>&copy;&nbsp;</span><span class="copyright-year"></span><span>&nbsp;</span><span> Tất cả các quyền được bảo hộ</span></p>
               </div>
               <div class="col-md-auto order-md-1">Triển khai bởi <a target="_blank"
                 href="https://tungong.tech">TuNgong.Tech</a></div>

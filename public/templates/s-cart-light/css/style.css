@@ -7437,6 +7437,14 @@ textarea.textarea-lg {
 	margin-top: 14px;
 }
 
+.breadcrumbs-custom-body.parallax-content.context-dark{
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.breadcrumbs-custom-title{
+	font-weight: bold;
+}
+
 @media (min-width: 576px) {
 	.breadcrumbs-custom-body {
 		padding: 70px 0;
@@ -7505,6 +7513,10 @@ textarea.textarea-lg {
 	letter-spacing: 0;
 	font-family: "Roboto Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 	transition: all 0.25s ease-in-out;
+}
+
+.fas, .fa {
+	font-style: normal;
 }
 
 .page-link, .page-link:focus, .page-link:active {

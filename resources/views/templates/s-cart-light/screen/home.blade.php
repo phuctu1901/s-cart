@@ -28,7 +28,7 @@ $categoryHot = $modelCategory->start()->getCategoryTop()->setlimit(6)->getData()
                                 {{-- Product image --}}
                                 <div class="product-figure">
                                     <a href="{{ $productNew->getUrl() }}">
-                                        <img src="{{ asset($productNew->getThumb()) }}" alt="{{ $productNew->name }}"/>
+                                        <img src="{{ asset($productNew->getThumb()) }}" alt="{{ $productNew->name }}" style="height: 200px; object-fit: cover;"/>
                                     </a>
                                 </div>
                                 {{--// Product image --}}
@@ -82,11 +82,18 @@ $categoryHot = $modelCategory->start()->getCategoryTop()->setlimit(6)->getData()
                     </div>
                 @endforeach
 
-                <div class="button-wrap fadeInUp animated text-center" data-caption-animate="fadeInUp" data-caption-delay="300">
-                    <a class="button button-zachem-tak-delat button-white button-zakaria" href="http://127.0.0.1:8000/banner/1" target="_self">
-                        Tất cả sản phẩm
-                    </a>
-                </div>
+                    <div class="container" style="margin-bottom: 0px;">
+                        <div class="row">
+                            <div class="col text-center">
+                                <div class="button-wrap fadeInUp animated text-center" data-caption-animate="fadeInUp" data-caption-delay="300">
+                                    <a class="button button-zachem-tak-delat button-white button-zakaria" href="http://127.0.0.1:8000/banner/1" target="_self">
+                                        Tất cả sản phẩm
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
             </div>
         </div>
     </section>
@@ -94,7 +101,7 @@ $categoryHot = $modelCategory->start()->getCategoryTop()->setlimit(6)->getData()
       <section class="section section-xxl bg-default">
         <div class="container">
 
-          <h2 class="wow fadeScale">Danh mục sản phẩm hot</h2>
+          <h2 class="wow fadeScale">Danh mục sản phẩm thịnh hành</h2>
         </div>
 {{--          <div class="row row-30 row-lg-50">--}}
               <div class="owl-carousel owl-style-7" data-items="1" data-sm-items="2" data-xl-items="3" data-xxl-items="4" data-nav="true" data-dots="true" data-margin="30" data-autoplay="true">
@@ -108,7 +115,7 @@ $categoryHot = $modelCategory->start()->getCategoryTop()->setlimit(6)->getData()
 {{--                     Product image--}}
                     <div class="product-figure">
                         <a href="{{ $categoryHot->getUrl() }}">
-                        <img src="{{ asset($categoryHot->getThumb()) }}" alt="{{ $categoryHot->title }}"/>
+                        <img src="{{ asset($categoryHot->getThumb()) }}" alt="{{ $categoryHot->title }}" style="height: 200px; object-fit: cover;"/>
                         </a>
                     </div>
 {{--                    // Product image--}}
@@ -142,7 +149,7 @@ $categoryHot = $modelCategory->start()->getCategoryTop()->setlimit(6)->getData()
                                   {{-- Product image --}}
                                   <div class="product-figure">
                                       <a href="{{ $productNew->getUrl() }}">
-                                          <img src="{{ asset($productNew->getThumb()) }}" alt="{{ $productNew->name }}"/>
+                                          <img src="{{ asset($productNew->getThumb()) }}" alt="{{ $productNew->name }}" style="height: 200px; object-fit: cover;"/>
                                       </a>
                                   </div>
                                   {{--// Product image --}}
@@ -195,11 +202,18 @@ $categoryHot = $modelCategory->start()->getCategoryTop()->setlimit(6)->getData()
                           </article>
                       </div>
                   @endforeach
-                      <div class="button-wrap fadeInUp animated" data-caption-animate="fadeInUp" data-caption-delay="300">
-                          <a class="button button-zachem-tak-delat button-white button-zakaria" href="http://127.0.0.1:8000/banner/1" target="_self">
-                              Tất cả sản phẩm
-                          </a>
+                      <div class="container" style="margin-bottom: 0px;">
+                          <div class="row">
+                              <div class="col text-center">
+                                  <div class="button-wrap fadeInUp animated text-center" data-caption-animate="fadeInUp" data-caption-delay="300">
+                                      <a class="button button-zachem-tak-delat button-white button-zakaria" href="http://127.0.0.1:8000/banner/1" target="_self">
+                                          Tất cả sản phẩm
+                                      </a>
+                                  </div>
+                              </div>
+                          </div>
                       </div>
+
               </div>
           </div>
       </section>
